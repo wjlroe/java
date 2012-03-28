@@ -1,7 +1,7 @@
 #
 # Author:: Seth Chisamore (<schisamo@opscode.com>)
 # Cookbook Name:: java
-# Attributes:: default 
+# Attributes:: default
 #
 # Copyright 2010, Opscode, Inc.
 #
@@ -35,18 +35,18 @@ end
 
 # jdk6 attributes
 # x86_64
-default['java']['jdk']['6']['x86_64']['url'] = 'http://download.oracle.com/otn-pub/java/jdk/6u31-b04/jdk-6u31-linux-x64.bin'
+default['java']['jdk']['6']['x86_64']['url'] = 'http://download.example.com/otn-pub/java/jdk/6u31-b04/jdk-6u31-linux-x64.bin'
 default['java']['jdk']['6']['x86_64']['checksum'] = '0219d4feeedb186e5081ab092dfcda20c290fde5463f9a707e12fd63897fd342'
 
 # i586
-default['java']['jdk']['6']['i586']['url'] = 'http://download.oracle.com/otn-pub/java/jdk/6u31-b04/jdk-6u31-linux-i586.bin'
+default['java']['jdk']['6']['i586']['url'] = 'http://download.example.com/otn-pub/java/jdk/6u31-b04/jdk-6u31-linux-i586.bin'
 default['java']['jdk']['6']['i586']['checksum'] = '60fdd4083373db919334500b8050b326d45d78703aa2d403eda48cfa5621702b'
 
 # jdk7 attributes
 # x86_64
-default['java']['jdk']['7']['x86_64']['url'] = 'http://download.oracle.com/otn-pub/java/jdk/7u3-b04/jdk-7u3-linux-x64.tar.gz'
+default['java']['jdk']['7']['x86_64']['url'] = 'http://download.example.com/otn-pub/java/jdk/7u3-b04/jdk-7u3-linux-x64.tar.gz'
 default['java']['jdk']['7']['x86_64']['checksum'] = '28ff4bc3194617e0f6144013b1ca391b279804170e297faa6879963424846c2d'
 
 # i586
-default['java']['jdk']['7']['i586']['url'] = 'http://download.oracle.com/otn-pub/java/jdk/7u3-b04/jdk-7u3-linux-i586.tar.gz'
+default['java']['jdk']['7']['i586']['url'] = 'http://download.example.com/otn-pub/java/jdk/7u3-b04/jdk-7u3-linux-i586.tar.gz'
 default['java']['jdk']['7']['i586']['checksum'] = '798a3ea1d390358bdc01911d9aab7da1ff887157b56becc0e07e6f2c031f9ded'
